@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+:root {
+    --main-color: #f1683a;
+    --secondary-color: #0d6efd;
+    --third-color: 	#c31628;
+    --fourth-color: #37a306;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: 'Rowdies';
+    background-repeat: no-repeat;
+    background-color: center;
+    background-size: cover;
+    scroll-behavior: smooth;
+    color: #fff;
+    background: #222;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    width: 60%;
+    font-family: 'Rowdies';
+    font-weight: 700;
+    color: #fff;
+    gap: 15px;
+}
+
+.game .titles h2,
+.game .titles p {
+
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+}
+
+.uid {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    width: 25%;
+    gap: 3px;
+    text-align: center;
+}
+
+.uid input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.uid input::placeholder {
+    color: #fff;
+}
+
+.payment-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 800px 250px;
+    padding: 20px;
+    padding-top: 70px;
+    width: 100%;
+    gap: 50px;
+
+}
+
+
+
+.complete-payment-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    position: relative;
+}
+
+.complete-payment-inputs::after {
+    content: '';
+    width: 2px;
+    height: 70%;
+    background: #555;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+
+.comlete-payment-info {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+
+.email-input > input{
+    width: 90%;
+    height: 40px;
+    background: #444;
+    margin-top: 10px;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    transition: 0.3s;
+}
+
+.email-input > input:hover {
+    padding-left: 30px;
+    border-color: #fff;
+}
+
+.email-input > input::placeholder {
+    color: #fff;
+}
+
+.payment-category-method {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+}
+
+.comlete-payment-info .buy-now-btn-container {
+    padding-bottom: 20px;
+
+}
+
+.comlete-payment-info .buy-now-btn-container a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: var(--main-color);
+    overflow: hidden;
+}
+
+.payment-price {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.payment-info > * {
+    background: #101010;
+    border-radius: 7px;
+    display: flex;
+    justify-content: start;
+    padding: 12px;
+    align-items: stretch;
+    flex-direction: column;
+    box-shadow: 10px 7px 50px rgba(255, 255, 255, 0.5);
+
+}
+
+.complete-payment {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    flex-direction: row;
+}
+
+.payment-info div .category-cards {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    height: 140px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.payment-info div .category-cards .card{
+    width: 20%;
+    background: #222;
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.payment-info div .category-cards .card.select {
+    background: #555;
+}
+
+.payments-container .item.select {
+    background: #555;
+}
+
+.payment-info div .amount-cards .card.select {
+    background: #555;
+}
+
+.payment-info .amount-cards {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    height: 200px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    height: fit-content;
+    padding-left: 15px;
+}
+
+.payment-info .amount-cards .card {
+    width: 31.333%;
+    background: #222;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.payment-info div .category-cards .card img,
+.payment-info div .amount-cards .card img {
+    width: 70px;
+}
+
+.select-item-header {
+    padding-top: 20px;
+}
+
+.from {
+    font-size: 10px;
+    color: #ff0000;
+    font-weight: 200;
+}
+
+.price {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.offer {
+    color: #444;
+    font-size: 10px;
+    ;
+    text-decoration: line-through;
+}
+
+.offer span {
+    background: #76b88d;
+    color: #08ad36;
+    padding: 3px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+.payments-container .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;    
+    transition: 0.3s;
+    position: relative;
+    top: 30px;
+    
+}
+
+
+
+.payments-container .item img {
+    width: 64px;
+}
+.payments-container  {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#silverCards.hide {
+    transform: scale(0);
+    display: none;
+    transition: 0.3s;  
+}
+
+#coinsCards.hide {
+    transform: scale(0);
+    display: none;
+    transition: 0.3s;
+}
+
+#coinsCards {
+    transform: scale(0);
+    display: none;
+    transition: 0.3s;
+}
+
+#silverCards.show {
+    transform: scale(1);
+    display: flex;
+    transition: 0.3s;  
+}
+
+#coinsCards.show {
+    transform: scale(1);
+    display: flex;
+    transition: 0.3s;
+}
+.payments-container{
+    gap: 10px;
+}
+
+#vf{
+    height: 85px;
+}
+
+.payments-container .pay{
+   text-align: center;
+}
+
+#cr {
+    padding: 25px 10px;
+}
+#cr img{
+    width: 100px;
+}
+
+#fa{
+    height: 85px;
+}
+
+#fa img{
+    width: 100px;
+    height: 85;
+}
+
+#fa h2{
+    position: relative;
+    right: 15px;
+}
+
+#cr h2{
+    position: relative;
+    right: 15px;
+}
+
+
+
+
+
+
+.payments-container .item{
+    background: #222;
+}
+
+@media (max-width: 1063px) {
+    .payment-info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 750px ;
+    }
+    .complete-payment {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: -1;
+        grid-row-end: -1;
+        flex-direction: column;
+       
+    }
+
+    .complete-payment-inputs ,
+    .comlete-payment-info {
+        width: 100%;
+    }
+
+    .complete-payment-inputs::after {
+        display: none;
+    }
+
+    .complete-payment-inputs .payment-category-method{
+        justify-content: center;
+    }
+
+    .game {
+        width: 90%;
+    }
+
+    .uid {
+        padding-bottom: 47px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .uid input{
+        width: 40%;
+    }
+}
+
+@media (max-width: 810px) {
+    .payment-info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 750px 750px ;
+    }
+
+ 
+    .uid input{
+        width: 60%;
+    }
+
+}

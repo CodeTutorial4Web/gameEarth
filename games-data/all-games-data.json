@@ -1,0 +1,86 @@
+{
+        "game1": {
+            "id":2,
+            "title": "Free Fire",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ffmax_tile.png",
+            "desc":"the ultimate survival shooter Game available on mobile.",
+            "gameLink": "games/freefiremobile.html"
+        },
+        "game2": {
+            "id":3,
+            "title": "PUBG MOBILE",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_rps_tile.jpg",
+            "desc":" a free-to-play battle royale video game developed by LightSpeed & Quantum Studio.",
+            "gameLink": "#"
+        },
+        "game3": {
+            "id":4,
+            "title": "CLASH OF CLANS",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Clash-of-Clans-tile-New.jpg",
+            "desc":"the game is set in a fantasy-themed persistent world where the player is a chief of a village.",
+            "gameLink": "games/clashofclans.html"
+        },
+        "game4": {
+            "id":5,
+            "title": "CLASH ROYALE",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Clash-Royale-New.jpg",
+            "desc":"an online multiplayer card game by Supercell, featuring characters from the empire building game, Clash of Clans.",
+            "gameLink": "games/clashroyale.html"
+        },
+        "game5": {
+            "id":6,
+            "title": "BRAWL STARS",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/brawl-stars-tile-new.jpg",
+            "desc":"a multiplayer online battle arena and third-person hero shooter video game.",
+            "gameLink": "games/brawlstars.html"
+        },
+        "game6": {
+            "id":7,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game7": {
+            "id":7,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game8": {
+            "id":7,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game9": {
+            "id":8,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game10": {
+            "id":9,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game11": {
+            "id":10,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        },
+        "game12": {
+            "id":11,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years.",
+            "gameLink": "games/fcmobile.html"
+        }      
+}

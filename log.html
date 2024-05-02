@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up-In</title>
+  <link rel="stylesheet" href="css/log.css">
+</head>
+<body>
+  <div class="registration-container">
+
+    <i class="fas fa-xmark" id="closeGegistrations"></i>
+
+        <div class="regestration-form-cont">
+            <h2 id="inUpHearder">Sign up</h2>
+        
+                
+            <form action="">
+
+                <div class="fields-group">
+                    <div class="user-input-field user-name">
+                        <label for="">Username </label>
+                        <input placeholder="Username" type="text" required id="userNameInput">
+                    </div>
+       
+                    <div class="user-input-field">
+                       <label for="">Email </label>
+                       <input placeholder="Email" type="email" required id="userEmailInput">
+                   </div>
+       
+                   <div class="user-input-field">
+                       <label for="userPasswordInput">Password </label>
+                       <input placeholder="Password" type="password" required id="userPasswordInput">
+                   </div>
+                   <p class="f-password">Forget your Password ? <a href="#">Click here</a></p>
+                   <div class="sign-btns-field">
+                    <button type="button" id="signUpBtn">Sign up</button>
+                    <button type="button" id="signInBtn" class="hide">Sign in</button>
+                </div>
+                </div>
+
+               
+               
+               <div class="sign-in-up-btns-field">
+                   <button type="button" id="signUpSwithchBtn">Sign up</button>
+                   <button type="button" id="signInSwitchBtn" class="desable">Sign in</button>
+               </div>
+
+            </form>
+     
+           
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

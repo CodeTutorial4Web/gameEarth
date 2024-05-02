@@ -1,0 +1,15 @@
+/* "suggestions":{
+        "game1": {
+            "url":"./games/fchome.html",
+            "id":0,
+            "title": "Fc Mobile",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/fc_mobile_tile.jpg",
+            "desc":"This A Nice Football Game And It's Suitable For Ages More Than Three Years."
+        },
+        "game2": {
+            "id":1,
+            "title": "VALORANT",
+            "imgSrc": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/valorant_tile.jpg",
+            "desc":"a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends."
+        }
+    },*/

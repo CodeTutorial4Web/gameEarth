@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/payment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Your Payment</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <h1>Confirm Your Payment</h1>
+            <div class="payment-process-cont">
+                <div class="payment-info">
+                    <h2>Payment info</h2>
+                    <div>
+                        <label for="">Product </label>
+                        <span>Fc mobile Coins</span>
+                    </div>
+                    <div>
+                        <label for="">Total </label>
+                        <span>$20</span>
+                    </div>
+                    <div>
+                        <label for="">Fees </label>
+                        <span>$2</span>
+                    </div>
+        
+                    <div>
+
+                        <label for=""><strong>Total Summation</strong></label>
+                        <strong><span>$20</span></strong>
+                    </div>
+
+                    <div class="payment-method">
+                        <label for="">Payment method </label>
+                        <span><img src="images/Paymenticons/paypal.png" alt=""></span>
+                    </div>
+        
+                    
+                </div>
+                <div class="payment-card-info">
+                    <div>
+                        <label for="userFullName">FULL NAME</label>
+                        <input type="text" id="userFullName">
+                    </div>
+                <div>
+                    <label for="userCardNumber"> CARD NUMBER </label>
+                    <input type="number" id="userCardNumber">
+                </div>
+              
+                <div>
+                    <label for="userFullName">CVV</label>
+                    <input type="number" id="userCardCvv">
+                </div>
+                <div>
+                    <label for="userCardNumber"> Expiry Date </label>
+                    <input type="date" id="userCardExpiry">
+                </div>
+                <div class="check-box-cont">
+                    <input type="checkbox" value="true" id="sendCodeOnEmail">
+                    <label for="sendCodeOnEmail">Send Code On Email</label>
+                    
+                </div>
+
+                <div class="confirm">
+                    <button id="confirm">
+                        Confirm
+                    </button>
+                </div>
+                </div>
+                
+            </div>
+          
+        </div>     
+    </div>
+   <script src="js/pay.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    width: 60%;
+    
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    
+}
+
+.container h1 {
+    text-align: center;
+   
+}
+
+.container .payment-process-cont {
+    display: flex;
+    padding: 0 50px;
+    gap: 100px;
+    width: 100%;
+}
+
+.container .payment-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .payment-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    position: relative;
+    padding-right: 70px;
+}
+
+.container .payment-info h2 {
+    padding-bottom: 10px;
+}
+
+.container .payment-info::after {
+    content: '';
+    width: 3px;
+    background-color: #ddd;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    
+    top: 10%;
+
+}
+
+.container .payment-info .payment-method {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .payment-info .payment-method label {
+    font-weight: 700;
+}
+
+.container .payment-info > div {
+    display: flex;
+    gap: 20px;
+}
+
+.container .payment-card-info > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 170%;
+}
+
+.container .payment-card-info > div input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+
+.container .payment-card-info > div.check-box-cont {
+    flex-direction: row;
+}
+
+.container .payment-card-info > div input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+.container .payment-card-info > div input#userCardCvv {
+    width: 90px;
+}
+
+.container .payment-card-info > div button {
+    padding: 10px 0;
+    background: #0d6efd;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container .payment-card-info > div button:hover {
+    color: #fff;
+}
+
+/* PAYMENT METHOD SELECTOR */
+.method-wrapper {
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-methods-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    background: #222;
+    gap: 40px;
+    width: 50%;
+    color: #fff;
+
+}
+
+.payment-methods-container h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.payment-methods-container .payment-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.payment-methods-container .payment-cards-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.payment-methods-container .payment-cards-container a:hover{    
+    color: #0d6efd;
+}
+
+.payment-methods-container .payment-cards-container a .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.payment-methods-container .payment-cards-container a .item span i{
+    color: #bbb;
+    font-size: 18px;
+}
+
+.last {
+    width: 64px;
+}
